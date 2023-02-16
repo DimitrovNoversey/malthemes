@@ -1,36 +1,62 @@
 /* DIMI MODS */
 
+
+/**
+ * General Edits
+ * v1.0.0
+ */
+
+
+/* Reposition Searchbar */
 #status-menu:not(.fixed) .search-container {
     right: 730px;
     top: -35px;
-    height: 28px;
     border-radius: 6px;
 }
 
-/*#status-menu.fixed {
-    top: 5px;
-}*/
-
+/* Remove Scrollbar */
 ::-webkit-scrollbar {
-  width: 0px;
-}
+	width: 0px;
+  }
 
+/* Sharpen corners @ the edit button */
 .list-table .list-table-data .data.title .add-edit-more, .list-unit .list-status-title .stats {
-    border-top-left-radius: 6px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 6px;
+    border-radius: 6px 0px 0px 6px;
 }
 
+/* Edit width of the entry number */
 .header-title.number, .data.number {
     width: 25px!important;
 }
 
+/* Edit season column */
 .data.season a, .data.season:empty:after {
 	width: 37px;
 	margin-left: 6px;
 	text-align: center;
 }
+
+/* Edit Footer */
+#footer-block {
+    width: 700px!important;
+    padding: 25px 0;
+    margin: 40px auto;
+    background: #efddf3;
+    line-height: 18px;
+    border-radius: 6px;
+}
+
+#copyright:after {
+	content: '\a \"Clarified\" list design by Valerio Lyndon; modified by DimitrovN.';
+}
+
+
+/* 
+ * END of General Edits 
+ */
+
+
+
 
 
 /**
@@ -38,6 +64,8 @@
  * v1.0.0
  */
 
+
+/* Favourite */
  .data.tags span a[href$="=Favourite"] {
 	position: absolute;
 	left: -2px;
@@ -69,7 +97,7 @@
 }
 
 
-
+/* Anime of the Season */
 .data.tags span a[href$="=AotS"] {
 	position: absolute;
 	left: -2px;
@@ -100,19 +128,9 @@
 	pointer-events: auto;
 }
 
-/* END of Highlight Favourites */
-
-#footer-block {
-    width: 700px!important;
-    padding: 25px 0;
-    margin: 40px auto;
-    background: #efddf3;
-    line-height: 18px;
-    border-radius: 6px;
-}
-
-#copyright:after {content: '\a \"Clarified\" list design by Valerio Lyndon; modified by DimitrovN.';}
-
+/* 
+ * END of Highlight Favourites 
+ */
 
 
 
