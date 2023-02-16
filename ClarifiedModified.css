@@ -1,6 +1,8 @@
 /* DIMI MODS */
 
 
+
+
 /**
  * General Edits
  * v1.0.0
@@ -141,13 +143,11 @@
 
 
 
+/**
+ * Music Player (DISABLED)
+ * v1.0.0
+ */
 
-
-
-
-
-
-/*MUSIC PLAYER*/   
 /*[data-query*='"status":7'] .link[href^="/anime/53111/"] ~ .add-edit-more .more a {  
 display: block !important;
 background-color: transparent;
@@ -181,3 +181,7 @@ position: fixed;
 font-size: 0;
 z-index: 0;
 } */
+
+/* 
+ * END of Music Player 
+ */
