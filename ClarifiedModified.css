@@ -43,6 +43,11 @@
     text-indent: 25px;
 }
 
+/* List item scales up on hover */
+.list-item:hover {
+  transform:scale(1.01);
+}
+
 /* Edit Footer */
 #footer-block {
     width: 700px!important;
