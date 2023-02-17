@@ -38,6 +38,11 @@
 	text-align: center;
 }
 
+/* Edit "User" position */
+.list-menu-float .icon-menu.profile:after {
+    text-indent: 25px;
+}
+
 /* Edit Footer */
 #footer-block {
     width: 700px!important;
