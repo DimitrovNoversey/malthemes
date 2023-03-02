@@ -17,9 +17,9 @@
 }
 
 /* Remove Scrollbar (DISABLED) */ 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
 	width: 0px;
-}
+} */ 
 
 /* Custom Scrollbar */
 body {
@@ -205,7 +205,7 @@ body {
  * v1.0.0
  */
 
-/*[data-query*='"status":7'] .link[href^="/anime/53111/"] ~ .add-edit-more .more a {  
+/* [data-query*='"status":7'] .link[href^="/anime/53111/"] ~ .add-edit-more .more a {  
 display: block !important;
 background-color: transparent;
 background-size: contain;
