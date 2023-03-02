@@ -16,10 +16,25 @@
     border-radius: 6px;
 }
 
-/* Remove Scrollbar */
+/* Remove Scrollbar (DISABLED) */ 
 ::-webkit-scrollbar {
 	width: 0px;
-  }
+}
+
+/* Custom Scrollbar */
+body {
+    overflow: overlay;
+}
+
+::-webkit-scrollbar
+{
+	width: 6px;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #efddf3;
+}
 
 /* Sharpen corners @ the edit button */
 .list-table .list-table-data .data.title .add-edit-more, .list-unit .list-status-title .stats {
