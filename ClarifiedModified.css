@@ -187,6 +187,38 @@ body {
 	pointer-events: auto;
 }
 
+
+/* Space */
+ .data.tags span a[href$="=Space"] {
+	position: absolute;
+	left: -2px;
+	top: -5px;
+	bottom: -5px;
+	right: -2px;
+	border: 2px solid #0074ba;
+	border-radius: 8px;
+	background: none !important;
+	margin: 0;
+	font-size: 0 !important;
+	pointer-events: none;
+}
+.data.tags span a[href$="=Space"]::before {
+	content: "🌌";
+	position: absolute;
+	right: -14px;
+	top: calc(50% - 13px);
+	width: 26px;
+	height: 26px;
+	background: var(--content-background);
+	border: 2px solid #0074ba;
+	border-radius: 50%;
+	text-align: center;
+	margin: 0;
+	color: #0074ba;
+	font: 700 14px/22px var(--icon-font);
+	pointer-events: auto;
+}
+
 /* 
  * END of Highlight Favourites 
  */
